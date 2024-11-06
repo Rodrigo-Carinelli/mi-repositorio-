@@ -7,7 +7,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    max-width: 1400px;
+    
 }
 
   /* Header and NavBar styles */
@@ -51,7 +51,7 @@ body {
 }
 
 .navBar-ul li a:hover {
-    background-color: #555;
+    background-color: white;
     border-radius: 5px;
 }
 
@@ -86,16 +86,18 @@ body {
 
 .text-content {
     max-width: 800px;
+    color: white;
 }
 
 .titulo h1 {
     font-size: 36px;
     margin-bottom: 10px;
+    color: white;
 }
 
 .titulo h3 {
     font-size: 24px;
-    color: #555;
+    color: white;
 }
 
 #main p {
@@ -145,6 +147,7 @@ body {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
+#main-menu
 #main-menu {
     padding: 250px;
 }
@@ -153,12 +156,14 @@ body {
     text-align: center;
     margin-bottom: 20px;
     width: 100%;
+    color: white;
 }
 
 .menu {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    color: white;
 }
 
 .menu > div {
@@ -167,6 +172,62 @@ body {
     padding: 15px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
+
+#main-nosotros {
+    padding: 20px;
+}
+
+.nostros-h1 {
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#main-nosotros p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.nosotros-picture img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+#main-contacto {
+    padding: 20px;
+    text-align: center;
+}
+
+.contacto-h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.contacto-h3 {
+    font-size: 1.6em;
+    margin-bottom: 20px;
+}
+
+.fieldset-contacto {
+    margin-bottom: 20px;
+}
+
+.fieldset-contacto2 {
+    margin-bottom: 20px;
+}
+
+.iframe-contacto {
+    width: 100%;
+    height: 450px;
+    border: 0;
+    margin-bottom: 20px;
+}
+
+
 
 @media (min-width: 601px) and (max-width: 1024px) {
     /* Ajustes para el header */
@@ -243,6 +304,73 @@ body {
         object-fit: cover;
     }
 
+    #main-menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu {
+        display: grid;
+        grid-template-columns: 1fr 1fr; 
+        gap: 20px;
+        width: 100%;
+        max-width: 800px;
+    }
+
+    .menu-entradas, .menu-minutas, .menu-sandwich, 
+    .menu-parrilla, .menu-ensaladas, .menu-postres, .menu-bebidas {
+        padding: 10px;
+
+        border-radius: 8px;
+    }
+
+    .nuevo-menu {
+        font-size: 2em;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    #main-nosotros {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        align-items: start;
+    }
+
+    .nostros-h1 {
+        grid-column: 1 / -1;
+        font-size: 2.5em;
+    }
+
+    #main-nosotros p {
+        grid-column: 1 / -1;
+        font-size: 1.3em;
+    }
+
+    #main-contacto {
+        padding: 20px;
+    }
+
+    .contacto-h1 {
+        font-size: 2em; 
+    }
+
+    .contacto-h3 {
+        font-size: 1.4em; 
+    }
+
+    .fieldset-contacto, .fieldset-contacto2 {
+        padding: 15px;
+        margin: 0 auto;
+        max-width: 90%;
+    }
+
+    .iframe-contacto {
+        width: 100%;
+        height: 400px; 
+        max-width: 90%;
+    }
+
 }
 
 @media (max-width: 600px) {
@@ -307,7 +435,93 @@ body {
         height: auto;
         object-fit: cover;
     }
+
+    #main-menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+    }
+
+    .menu > div {
+        width: 100%;
+        padding: 15px;
+        border-radius: 8px;
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .menu h4 {
+        font-size: 1.2em;
+        margin-bottom: 8px;
+    }
+
+    .menu ul {
+        list-style: none;
+        padding-left: 0;
+    }
+
+    .menu li {
+        font-size: 1em;
+        margin: 5px 0;
+    }
+
+    #main-nosotros {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nostros-h1 {
+        font-size: 1.6em;
+    }
+
+    #main-nosotros p {
+        font-size: 0.9em;
+        text-align: justify;
+    }
+
+    .nosotros-picture, section {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .nosotros-picture img, section img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+    }
+    #main-contacto {
+        padding: 15px;
+    }
+
+    .contacto-h1 {
+        font-size: 1.8em; 
+    }
+
+    .contacto-h3 {
+        font-size: 1.3em; 
+    }
+
+    .fieldset-contacto, .fieldset-contacto2 {
+        padding: 10px;
+        margin: 0 auto;
+        max-width: 90%;
+    }
+
+    .iframe-contacto {
+        height: 300px; 
+    }
 }
+
+
+
+
 
 
 
