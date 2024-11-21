@@ -1,0 +1,225 @@
+/* Main styles */
+#main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+}
+
+.img-simoca {
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+    margin: 20px 0;
+}
+
+.content-wrapper {
+    display: flex;
+    align-items: center;
+    max-width: 1000px;
+    margin: 20px 0;
+}
+
+.img-comida {
+    width: 150px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.text-content {
+    max-width: 800px;
+    color: white;
+}
+
+.titulo h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.titulo h3 {
+    font-size: 24px;
+    color: white;
+}
+
+#main p {
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: justify;
+}
+
+#main-imagenes {
+    padding: 20px;
+}
+
+.picture-imagenes {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+}
+
+.picture-imagenes img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+#main-menu #main-menu {
+    padding: 250px;
+}
+
+.nuevo-menu {
+    text-align: center;
+    margin-bottom: 20px;
+    width: 100%;
+    color: white;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: white;
+}
+
+.menu>div {
+    flex: 1 1 300px;
+    margin: 10px;
+    padding: 15px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Título principal */
+.nostros-h1 {
+    text-align: center;
+    font-size: 2.5em;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.nosotros-p {
+    color: white;
+}
+
+/* Imagen principal */
+.nosotros-picture img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px white(0, 0, 0, 0.1);
+}
+
+/* Título secundario */
+.nosotros-h2 {
+    font-size: 2em;
+    color: white;
+    margin-top: 40px;
+    text-align: center;
+}
+
+/* Secciones de biografía */
+.nosotros-selection1,
+.nosotros-selection2 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin: 20px 0;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Imagenes de los dueños */
+.nosotros-picture2 img,
+.nosotros-picture3 img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    object-fit: cover;
+}
+
+/* Texto de las secciones */
+.nosotros-selection1 p,
+.nosotros-selection2 p {
+    font-size: 1em;
+    flex: 1;
+    margin: 0;
+    color: black;
+}
+
+/* Título principal */
+.contacto-h1 {
+    text-align: center;
+    font-size: 3em;
+    color: white;
+    margin-bottom: 10px;
+}
+
+/* Subtítulo */
+.contacto-h3 {
+    text-align: center;
+    font-size: 1.5em;
+    color: white;
+    margin-bottom: 20px;
+}
+
+/* Fieldsets */
+.fieldset-contacto,
+.fieldset-contacto2 {
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Título de los fieldsets */
+.contacto-h4 {
+    font-size: 1.8em;
+    color: #34495e;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Tabla */
+.table-contacto {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    text-align: left;
+}
+
+.table-contacto th {
+    background: #2c3e50;
+    color: #fff;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.table-contacto tr:nth-child(even) {
+    background: #f2f2f2;
+}
+
+.table-contacto td,
+.table-contacto th {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+/* Mapa */
+.iframe-contacto {
+    display: block;
+    width: 100%;
+    height: 450px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,56 @@
+/* General styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+
+}
+/* Header and NavBar styles */
+#header {
+    width: 100%;
+    background-color: #333;
+}
+
+#navBar {
+    display: flex;
+    justify-content: center;
+}
+
+.navBar-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    max-width: 1200px;
+}
+
+/* Logo style */
+.navBar-img {
+    height: 50px;
+    width: auto;
+}
+
+/* Menu styles */
+.navBar-ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navBar-ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease;
+}
+
+.navBar-ul li a:hover {
+    background-color: white;
+    border-radius: 5px;
+}
+

@@ -1,0 +1,24 @@
+  /* Footer styles */
+#footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-logo {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.footer-logo img {
+    height: 40px;
+    width: auto;
+}
+
+.footer-autor h3,
+.footer-autor h4 {
+    margin: 5px 0;
+}
