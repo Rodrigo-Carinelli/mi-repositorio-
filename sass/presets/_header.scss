@@ -34,7 +34,7 @@ body {
     width: auto;
 }
 
-/* Menu styles */
+/* Menu styles */ 
 .navBar-ul {
     list-style: none;
     display: flex;
@@ -53,4 +53,27 @@ body {
     background-color: white;
     border-radius: 5px;
 }
+
+.nav__toggle {
+    position: absolute;
+    cursor: pointer;
+    margin: 0rem 1rem;
+    right: 0;
+}
+
+.close,
+input[type="checkbox"] {
+    display: none;
+    }
+
+.hamburger {
+    margin-top: 0.2rem;
+
+} 
+
+
+
+
+
+
 
