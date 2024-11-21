@@ -675,74 +675,7 @@ body {
         margin-top: 10px;
         color: black;
     }
-    /* Título principal */
-    .contacto-h1 {
-        text-align: center;
-        font-size: 2em;
-        color: white;
-        margin-bottom: 8px;
-    }
-
-    /* Subtítulo */
-    .contacto-h3 {
-        text-align: center;
-        font-size: 1.2em;
-        color: white;
-        margin-bottom: 15px;
-    }
-
-    /* Fieldsets */
-    .fieldset-contacto, .fieldset-contacto2 {
-        margin: 15px 0;
-        padding: 15px;
-        border: 1px solid #ccc;
-        border-radius: 8px;
-        background: #ffffff;
-        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-    }
-
-    /* Título de los fieldsets */
-    .contacto-h4 {
-        font-size: 1.4em;
-        color: #34495e;
-        margin-bottom: 8px;
-        text-align: center;
-    }
-
-    /* Tabla */
-    .table-contacto {
-        width: 100%;
-        border-collapse: collapse;
-        margin-top: 8px;
-        text-align: left;
-    }
-
-    .table-contacto th {
-        background: #2c3e50;
-        color: #fff;
-        padding: 8px;
-        font-weight: bold;
-    }
-
-    .table-contacto tr:nth-child(even) {
-        background: #f2f2f2;
-    }
-
-    .table-contacto td, .table-contacto th {
-        padding: 8px;
-        border: 1px solid #ddd;
-        font-size: 0.9em;
-    }
-
-    /* Mapa */
-    .iframe-contacto {
-        display: block;
-        width: 100%;
-        height: 300px;
-        border: none;
-        border-radius: 8px;
-        margin-top: 8px;
-        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
-    }
+    
+    
 
 }
